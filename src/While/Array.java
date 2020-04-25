@@ -2,14 +2,6 @@ package While;
 
 public class Array {
     public static void main(String[] args){
-        String mataKuliah[];
-        mataKuliah = new String[10];
-
-        mataKuliah[0] = "Pemograman Berbasis Objek 1";
-        mataKuliah[1] = "Visual 2";
-        mataKuliah[2] = "Rekayasa Perangkat Lunak";
-        mataKuliah[3] = "Organisasi Komputer";
-        mataKuliah[4] = "Pemograman Web 2";
      double[][] nilaiMahasiswa = new double[5][30];
 
      nilaiMahasiswa[0][0] = 80;
@@ -22,7 +14,7 @@ public class Array {
               nilaiMahasiswa[2][0] * bobot [2] +
               nilaiMahasiswa[3][0] * bobot [3];
 
-    System.out.println("Nilai si mahasiswa 1 :"+nilaiMahasiswa[4][0];
+    System.out.println("Nilai si mahasiswa 1 :"+nilaiMahasiswa[4][0]);
     nilaiMahasiswa[0][1] = 80;
     nilaiMahasiswa[1][1] = 90;
     nilaiMahasiswa[2][1] = 75;
