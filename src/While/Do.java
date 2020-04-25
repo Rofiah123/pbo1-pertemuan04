@@ -1,6 +1,7 @@
 package While;
 
 public class Do {
+    public static void main(String[] args){
     int isiGelas = 0;
     int penuh = 225;
 
